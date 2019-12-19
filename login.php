@@ -17,7 +17,7 @@
   <body>
     <div class="container">
       <center>
-      <img src="admin/assets/img/logo.png" width="250px" height="150px" class="mt-5">
+      <img src="assets/img/logo.png" width="250px" height="150px" class="mt-5">
     <form method="post">
       <div class="row">
         <div class="col-sm-4" style="margin-left: 380px;">
@@ -25,7 +25,7 @@
     
   </h5>
   <div class="form-group">
-    <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <input type="email" name="email" class="form-control" id="exampleInputemail1" aria-describedby="emailHelp" placeholder="Enter email">
   </div>
   <div class="form-group">
     <input type="password" name="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
@@ -51,7 +51,7 @@ if(isset($_POST["login"])){
 
   $email = $_POST['email'];
   $pass1 = $_POST['password'];
-  $query =  mysqli_query($conn, "SELECT *FROM registrasi WHERE email= '$email'");
+  $query =  mysqli_query($conn, "SELECT *FROM admin WHERE email= '$email'");
 
    
  

@@ -20,7 +20,7 @@
   <body>
     <div class="container">
       <center>
-      <img src="admin/assets/img/logo.png" width="300px" height="200px" class="mt-5">
+      <img src="assets/img/logo.png" width="300px" height="200px" class="mt-5">
     <form>
       <div class="row">
         <div class="col-sm-4" style="margin-left: 380px;">
@@ -28,8 +28,6 @@
     
   </h5>
   <a href="login.php" style="margin-right:10;" type="submit" class="btn btn-primary">Log In </a>
-
-   <a href="registrasi.php" style="margin-left:10;"  type="submit" class="btn btn-primary">Sign Up</a>
 </center>
     </div>
     <!-- Optional JavaScript -->

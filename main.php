@@ -61,7 +61,7 @@
         
         background-attachment: fixed;
  
-        background-image: url('admin/assets/img/logo.png');
+        background-image: url('assets/img/logo.png');
         border-bottom: 2px salmon;
         margin-top: -65px;
         margin-left: 14px;
@@ -229,10 +229,10 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="main.php">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Kost Terdekat</a>
+        <a class="nav-link" href="kostterdekat.php">Kost Terdekat</a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -283,18 +283,18 @@
        <div class="col-sm-4">
       <div class="col-xm-3 mr-3  mt-10  ">
          
-        <a href="main.php?halaman=Kontrakan"> <img class=" bip   mb-4"    src="admin/assets/img/kost/kontrakan/1.jpg">
+        <a href="main.php?halaman=Kontrakan"> <img class=" bip   mb-4"    src="assets/img/kost/kontrakan/1.jpg">
         <h4  >Kontrakan</h4></a>
       </div>
 
       <div class="col-xm-3 mr-3 mt-10 ">
          
-        <a href="main.php?halaman=Kost Tingkat"> <img class=" bip  mb-4" src="admin/assets/img/kost/kost tingkat/1.jpg"> 
+        <a href="main.php?halaman=Kost Tingkat"> <img class=" bip  mb-4" src="assets/img/kost/kost tingkat/1.jpg"> 
         <h4>Kost Tingkat</h4></a>
       </div>
       <div class="col-xm-3 mr-3 mt-10 ">
          
-        <a href="perumahan.php"> <img class=" bip  mb-4" src="admin/assets/img/kost/perumahan/1.jpg"> 
+        <a href="perumahan.php"> <img class=" bip  mb-4" src="assets/img/kost/perumahan/1.jpg"> 
         <h4 style="width: 120px;">Perumahan</h4></a>
       </div>
     </div>
